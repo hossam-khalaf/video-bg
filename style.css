@@ -138,3 +138,18 @@
 
 .menu {
 }
+
+.text h2 span {
+	color: yellow;
+	font-size: 1.3em;
+}
+
+@media (max-width: 991px) {
+	.text h2 {
+		font-size: 2.6em;
+	}
+
+	.text h3 {
+		font-size: 1.5em;
+	}
+}
