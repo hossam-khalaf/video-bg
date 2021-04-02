@@ -21,6 +21,11 @@
 	background-color: #111;
 	color: white;
 	z-index: 1;
+	transition: 0.3s;
+}
+
+.hero.active {
+	right: 300px;
 }
 
 .hero header {
@@ -137,6 +142,29 @@
 }
 
 .menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 300px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu ul {
+	position: relative;
+	list-style: none;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #111;
+}
+
+.menu ul li a:hover {
+	color: #8c8c8d;
 }
 
 .text h2 span {
